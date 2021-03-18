@@ -13,6 +13,9 @@ todo:
 ≤Œøº:  
 	1 https://blog.csdn.net/liunan199481/article/details/94392149  
 	2 https://blog.csdn.net/zbc_vc/article/details/18180115  
+	
+“¿¿µ:
+    1 https://github.com/TsudaKageyu/minhook
    
 
 
