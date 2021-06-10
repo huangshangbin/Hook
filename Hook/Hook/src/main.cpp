@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 #include <WinSock2.h>
 #include <Windows.h>
@@ -23,6 +24,9 @@ int _stdcall mySend(SOCKET s, const char *buf, int len, int flags)
 
 int main()
 {
+	string str;
+	cin >> str;
+
 	SOCKET clientSocket = NULL;
 	string data = "huang";
 	::send(clientSocket, data.c_str(), data.length(), 0);
@@ -42,8 +46,7 @@ int main()
 	cout << "third GetLastError = " << GetLastError() << endl;
 	
 
-	int a;
-	cin >> a;
+	cin >> str;
 
 	return 0;
 }
